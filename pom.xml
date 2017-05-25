@@ -39,27 +39,19 @@
  
 	
 	
-	 <!-- https://mvnrepository.com/artifact/com.oracle/ojdbc14 -->
-	 <!-- https://mvnrepository.com/artifact/com.oracle/ojdbc14 -->
 
 
 
 
-
-	 <dependency>
-	 	<groupId>com.oracle</groupId>
-	 	<artifactId>ojdbc6</artifactId>
-	 	<version>11.2.0</version>
-	 	<type>true</type>
-	 </dependency>
+	
   </dependencies>
 
   <build>
     <plugins>
       <plugin>
         <groupId>org.apache.tomcat.maven</groupId>
-        <artifactId>tomcat9-maven-plugin</artifactId>
-        <version>9</version>
+        <artifactId>tomcat8-maven-plugin</artifactId>
+        <version>8</version>
          
       </plugin>
     </plugins>
